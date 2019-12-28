@@ -4,4 +4,4 @@ mix_lists = [1, "cheese", 2, "pepperoni", 3]
 list_of_lists = [[1, 2], [2, 3]]
 
 print(pizza_toppings[-1])
-print(len(pizza_toppings[]))
+print(len(pizza_toppings))
