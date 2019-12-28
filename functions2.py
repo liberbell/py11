@@ -1,4 +1,4 @@
 def pizza_name(toppings):
-    print(f"{topping.title()} Pizza")
+    print(f"{toppings.title()} Pizza")
 
 pizza_name("pepperoni")
