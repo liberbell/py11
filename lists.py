@@ -20,3 +20,7 @@ print(pizza_toppings)
 
 pizza_toppings.remove("mashrooms")
 print(pizza_toppings)
+
+pizza_toppings = ["cheese", "cheese", "pepperoni"]
+pizza_toppings.remove("cheese")
+print(pizza_toppings)
