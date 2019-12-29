@@ -14,3 +14,6 @@ print(pizza_toppings)
 
 del pizza_toppings[1]
 print(pizza_toppings)
+
+pizza_toppings.pop()
+print(pizza_toppings)
