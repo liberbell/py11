@@ -8,3 +8,4 @@ print(len(pizza_toppings))
 
 pizza_toppings.append("pinapple")
 print(len(pizza_toppings))
+print(pizza_toppings)
