@@ -17,3 +17,6 @@ print(pizza_toppings)
 
 pizza_toppings.pop()
 print(pizza_toppings)
+
+pizza_toppings.remove("mashrooms")
+print(pizza_toppings)
