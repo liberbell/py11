@@ -11,3 +11,6 @@ print(len(pizza_toppings))
 print(pizza_toppings)
 pizza_toppings.insert(0, "mashrooms")
 print(pizza_toppings)
+
+del.pizza_toppings[1]
+print(pizza_toppings)
