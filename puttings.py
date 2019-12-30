@@ -8,4 +8,4 @@ def format_topping(topping):
         return f"{topping.title() ($1 Extra)}"
 
 # format_topping(pizza_toppings)
-print(format_topping("cheese") "Cheese (free)")
+print(format_topping("cheese") == "Cheese (free)")
