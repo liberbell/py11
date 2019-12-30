@@ -5,6 +5,7 @@ def format_topping(topping):
     if topping == "cheese":
         return f"{topping.title()} (free)"
     else:
-        return f"{topping.title() ($1.00)}"
+        return f"{topping.title() ($1 Extra)}"
 
-format_topping(pizza_toppings)
+# format_topping(pizza_toppings)
+print(format_topping("cheese") "Cheese (free)")
