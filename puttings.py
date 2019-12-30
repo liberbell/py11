@@ -13,3 +13,4 @@ print(format_topping("pepperoni") == "Pepperoni ($1 Extra)")
 
 def print_menu(toppings):
     print("Welcome to Jolie's Pizzelia.")
+    print("Our available toppings are: ")
