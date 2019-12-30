@@ -4,3 +4,4 @@ numbers_greater_than_five = []
 for i in numbers:
     if i > 5:
         numbers_greater_than_five.append(i)
+print(numbers_greater_than_five)
