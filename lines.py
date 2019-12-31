@@ -10,4 +10,7 @@ my_turtle.shape("circle")
 my_turtle.forward(100)
 
 my_turtle.left(45)
+my_turtle.penup()
+my_turtle.forward(100)
+my_turtle.pendown()
 my_turtle.forward(100)
