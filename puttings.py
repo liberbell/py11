@@ -8,8 +8,11 @@ def format_topping(topping):
 
 # format_topping(pizza_toppings)
 print(format_topping("cheese") == "Cheese (Free)")
-# print(format_topping("pepperoni") == "Pepperoni ($1 Extra)")
+# print("a" == "a")
+print(format_topping("pepperoni") == "Pepperoni ($1 Extra)")
 
 def print_menu(toppings):
     print("Welcome to Jolie's Pizzelia.")
     print("Our available toppings are: ")
+    for topping in toppings:
+        print(format_topping(topping))
