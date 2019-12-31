@@ -17,4 +17,4 @@ def print_menu(toppings):
     for topping in toppings:
         print(format_topping(topping))
 
-print_menu()
+print_menu(pizza_toppings)
