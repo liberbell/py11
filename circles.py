@@ -6,6 +6,7 @@ screen.title("Drawing Circle Practice")
 
 my_turtle = turtle.Turtle()
 my_turtle.pensize(5)
+my_turtle.color("green")
 
 my_turtle.fillcolor("red")
 my_turtle.begin_fill()
