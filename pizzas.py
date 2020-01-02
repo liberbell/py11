@@ -22,3 +22,5 @@ PEPPERONI_Location = [
 ]
 
 screen = turtle.Screen()
+screen.bgcolor(BACKGROUND_Color)
+screen.title("My Pizza")
