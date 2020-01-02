@@ -20,3 +20,5 @@ PEPPERONI_Location = [
     [80, 90],
     [95, 150]
 ]
+
+screen = turtle.Screen()
