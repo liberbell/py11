@@ -35,3 +35,8 @@ def draw_circle(radius, line_color, fill_color):
     my_turtle.begin_fill()
     my_turtle.circle(radius)
     my_turtle.end_fill()
+
+def move_turtle(x, y):
+    my_turtle.up()
+    my_turtle.goto(x, y)
+    my_turtle.down()
