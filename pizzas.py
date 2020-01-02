@@ -24,3 +24,7 @@ PEPPERONI_Location = [
 screen = turtle.Screen()
 screen.bgcolor(BACKGROUND_Color)
 screen.title("My Pizza")
+
+my_turtle = turtle.Turtle()
+my_turtle.pensize(5)
+my_turtle.shape("circle")
