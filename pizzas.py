@@ -40,3 +40,7 @@ def move_turtle(x, y):
     my_turtle.up()
     my_turtle.goto(x, y)
     my_turtle.down()
+
+draw_circle(150, CRUST_Color, CRUST_Color)
+move_turtle(0, 25)
+draw_circle(125, SAUCE_Color, CHEESE_Color)
