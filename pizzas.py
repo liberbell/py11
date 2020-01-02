@@ -44,3 +44,7 @@ def move_turtle(x, y):
 draw_circle(150, CRUST_Color, CRUST_Color)
 move_turtle(0, 25)
 draw_circle(125, SAUCE_Color, CHEESE_Color)
+
+for location in PEPPERONI_Location:
+    move_turtle(location[0], location[1])
+    draw_circle(10, SAUCE_Color, SAUCE_Color)
