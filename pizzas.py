@@ -28,3 +28,10 @@ screen.title("My Pizza")
 my_turtle = turtle.Turtle()
 my_turtle.pensize(5)
 my_turtle.shape("circle")
+
+def draw_circle(radius, line_color, fill_color):
+    my_turtle.color(line_color)
+    my_turtle.fillcolor(fill_color)
+    my_turtle.begin_fill()
+    my_turtle.circle(radius)
+    my_turtle.end_fill()
