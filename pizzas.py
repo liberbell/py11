@@ -51,3 +51,10 @@ for location in PEPPERONI_Location:
 
 move_turtle(0, 150)
 my_turtle.color(BACKGROUND_Color)
+
+for x in range(0, 8):
+    my_turtle.pendown()
+    my_turtle.left(45)
+    my_turtle.forward(150)
+    my_turtle.penup()
+    my_turtle.backward(150)
