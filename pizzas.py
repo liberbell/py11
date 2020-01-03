@@ -58,3 +58,5 @@ for x in range(0, 8):
     my_turtle.forward(150)
     my_turtle.penup()
     my_turtle.backward(150)
+
+turtle.done()
