@@ -48,3 +48,6 @@ draw_circle(125, SAUCE_Color, CHEESE_Color)
 for location in PEPPERONI_Location:
     move_turtle(location[0], location[1])
     draw_circle(10, SAUCE_Color, SAUCE_Color)
+
+move_turtle(0, 150)
+my_turtle.color(BACKGROUND_Color)
